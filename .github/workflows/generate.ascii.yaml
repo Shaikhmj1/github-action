@@ -13,11 +13,13 @@ jobs:
         - name: checkout repo file
           run: ls -lrtha
         
-        - name: giving persmission
-          run: chmod 777 ./ascii-srcipt.sh
-          
+       
+
         - name: Executing shell Script
-          run: ./ascii-srcipt.sh
+          run: |
+            chmod +x ascii-srcipt.sh
+            ./ascii-srcipt.sh
+
 
         
         
