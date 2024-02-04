@@ -14,7 +14,7 @@ jobs:
           run: ls -lrtha
         
         - name: Executing shell Script
-          run: ./ascii-sript.sh
+          run: ./ascii-srcipt.sh
 
         
         
